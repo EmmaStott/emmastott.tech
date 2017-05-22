@@ -1,0 +1,14 @@
+# theme.toml template for a Hugo theme
+
+name = "emmastott.tech"
+license = "MIT"
+licenselink = "https://github.com/emmastott/emmastott.tech-hugo-theme/blob/master/LICENSE.md"
+description = "A theme for Hugo, used by emmastott.tech"
+homepage = "https://emmastott.tech/"
+tags = []
+features = []
+min_version = "0.20.7"
+
+[author]
+  name = "Emma Stott"
+  homepage = "https://emmastott.tech/"

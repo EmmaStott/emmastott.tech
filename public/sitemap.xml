@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://emmastott.tech/blog/hello-world/</loc>
+    <lastmod>2017-05-21T19:43:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://emmastott.tech/blog/</loc>
+    <lastmod>2017-05-21T19:43:58+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://emmastott.tech/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://emmastott.tech/</loc>
+    <lastmod>2017-05-21T19:43:58+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://emmastott.tech/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

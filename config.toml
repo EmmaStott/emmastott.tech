@@ -1,0 +1,4 @@
+baseURL = "https://emmastott.tech/"
+languageCode = "en-gb"
+title = "Emma Stott"
+theme = "blank"

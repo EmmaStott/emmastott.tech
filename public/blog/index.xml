@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Emma Stott</title>
+    <link>https://emmastott.tech/blog/</link>
+    <description>Recent content in Blogs on Emma Stott</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 21 May 2017 19:43:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://emmastott.tech/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, World</title>
+      <link>https://emmastott.tech/blog/hello-world/</link>
+      <pubDate>Sun, 21 May 2017 19:43:58 +0100</pubDate>
+      
+      <guid>https://emmastott.tech/blog/hello-world/</guid>
+      <description>Hi! Welcome to my latest (and hopefully greatest) website.
+I&amp;rsquo;ve never been very good at maintaining a website/blog, but it&amp;rsquo;s 2017 and I really ought to have one, so here it is.
+After several attempts over the years on various different platforms (Blogger, Wordpress, and even a brief version hosted on GitHub Pages), I&amp;rsquo;ve finally settled on a static site powered by Hugo and self-hosted (a VPS from OVH at the time of writing).</description>
+    </item>
+    
+  </channel>
+</rss>
