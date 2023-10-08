@@ -1,0 +1,55 @@
+baseURL: "https://emmastott.tech/"
+copyright: "All rights reserved."
+enableRobotsTXT: true
+languageCode: "en-gb"
+theme: "emmastott"
+title: "Emma Stott"
+
+markup:
+  highlight:
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: false
+    tabWidth: 4
+
+# Menu
+menus:
+  main:
+  - name: "Home"
+    pageRef: "/"
+    weight: 10
+  - name: "Posts"
+    pageRef: "/posts"
+    weight: 20
+  - name: "Tags"
+    pageRef: "/tags"
+    weight: 30
+
+# Socials
+params:
+  katex: true
+  mathjax: true
+  mode: toggle
+  subtitle: "My corner of the Internet."
+  useCDN: false
+  customcss:
+    - "css/reset.css"
+    - "css/styles.css"
+  social:
+    - name: LinkedIn
+      icon: linkedin
+      url: "https://linkedin.com/in/emmastott"
+    - name: GitHub
+      icon: github
+      url: "https://github.com/EmmaStott"
+    - name: GitLab
+      icon: gitlab
+      url: 'https://gitlab.com/emmastott'
+    - name: Twitter
+      icon: twitter
+      url: 'https://twitter.com/EmmaStott_'
+
+

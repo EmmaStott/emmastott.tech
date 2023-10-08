@@ -1,0 +1,12 @@
+name = "Emma Stott"
+description = "The theme for my personal site."
+demosite = "https://emmastott.tech"
+homepage = "https://github.com/EmmaStott/hugo-theme-emmastott"
+license = "MIT"
+licenselink = "https://github.com/EmmaStott/hugo-theme-emmastott/LICENSE"
+features = []
+tags = ["blog", "personal"]
+
+[author]
+  name = "Emma Stott"
+  homepage = "https://emmastott.tech"

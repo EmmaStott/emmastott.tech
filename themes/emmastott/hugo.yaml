@@ -1,0 +1,7 @@
+baseURL: "https://emmastott.tech/"
+copyright: "All rights reserved."
+enableRobotsTXT: true
+languageCode: "en-gb"
+theme: "emmastott"
+title: "Emma Stott"
+

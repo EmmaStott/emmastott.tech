@@ -1,2 +1,3 @@
-# emmastott.dev
+# emmastott.tech
+
 My personal site.

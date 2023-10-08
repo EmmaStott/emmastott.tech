@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400");
+@import url("https://fonts.googleapis.com/css?family=Fira+Code:400");
+
+/*#region reset*/
+/* https://www.youtube.com/shorts/2lyDv0wOQuQ */
+
+/* makes sizing simpler */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+/*#endregion*/
+
+/* https://www.realtimecolors.com/?colors=1d1b1d-ffffff-4b154c-c3dada-694f82 */
+:root[data-theme="light"] {
+	--clr-text: #1d1b1d;
+	--clr-background: #ffffff;
+	--clr-primary: #4b154c;
+	--clr-secondary: #c3dada;
+	--clr-accent: #694f82;
+}
+
+:root[data-theme="dark"] {
+	--clr-text: #e4e2e4;
+	--clr-background: #000000;
+	--clr-primary: #e9b3ea;
+	--clr-secondary: #253c3c;
+	--clr-accent: #977db0;
+}
+
+:root {
+	--ff-body: "Poppins", san-serif;
+	--ff-headings: "Poppins", san-serif;
+	--ff-code: "Fira Code", monospace;
+}
+
+a {
+	border-bottom: 3px solid var(--clr-primary);
+	color: unset;
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--clr-background);
+	background-color: var(--clr-accent);
+}
+
+article img, article video {
+	max-width: 100%;
+}
+
+article .description {
+	color: var(--clr-accent);
+	margin-top: 0;
+}
+
+article .date {
+	font-style: italic;
+}
+
+blockquote {
+	background-color: var(--clr-secondary);
+	border-left: 3px solid var(--clr-accent);
+	font-style: italic;
+	padding: 0.5rem;
+}
+
+body {
+	background-color: var(--clr-background);
+	color: var(--clr-text);
+	display: flex;
+	flex-direction: column;
+	font-family: var(--ff-body);
+	font-weight: 400;
+	min-height: 100vh;
+	width: max(100vw, 450px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--ff-headings);
+	font-weight: 700;
+}
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+	color: var(--clr-primary);
+	font-weight: 400;
+}
+
+html {
+	color-scheme: dark light;
+	font-size: 100%;
+}
+
+h1 {font-size: 3rem;}
+h1::before {
+	content: "# ";
+}
+
+h2 {font-size: 2rem;}
+h2::before {
+	content: "## ";
+}
+
+h3 {font-size: 1.6rem;}
+h3::before {
+	content: "### ";
+}
+
+h4 {font-size: 1.4rem;}
+h4::before {
+	content: "#### ";
+}
+
+h5 {font-size: 1.2rem;}
+h5:before {
+	content: "##### ";
+}
+
+h6 {font-size: 1rem;}
+h6:before {
+	content: "###### ";
+}
+
+small {font-size: 0.800rem; /* 12.8px */}
+
+footer {
+	justify-content: end;
+}
+
+header, footer {
+	align-items: center;
+	display: flex;
+	gap: 1em;
+}
+
+header .title {
+	color: var(--clr-primary);
+	flex: 1;
+	font-size: 2rem;
+}
+
+header nav, .social-icons {
+	display: flex;
+}
+
+header nav ul, .tags ul, .social-icons ul {
+	display: flex;
+	list-style: none;
+	gap: 1em;
+	padding: 0;
+}
+
+main {
+	flex: 1
+}
+
+main, main > * + *, article > * + *, footer {
+	margin-top: 1rem;
+}
+
+ul, ol {
+	list-style-position: outside;
+	padding-left: 1em;
+}
+
+main ul li, main ol li {
+	margin-top: 1rem;
+}
+
+li::marker {
+	color: var(--clr-accent);
+}
+
+nav a, .social-icons a {
+	padding: 0.5rem;
+}
+
+.highlight pre {
+	font-family: var(--ff-code);
+	padding: 0.5rem;
+}
+
+.meta {
+	color: var(--clr-accent);
+}
+
+/* Restore the default syntax highlight linking. */
+.lnlinks {
+	border: unset;
+}
+.lnlinks:hover {
+	background-color: unset;
+}
+
+.tags a, .social-icons a {
+	display: flex;
+}
+
+.wrapper {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-inline: auto;
+	padding: 1rem;
+	width: min(100%, 120ch);
+}
+
+#theme-toggle {
+	cursor: pointer;
+}

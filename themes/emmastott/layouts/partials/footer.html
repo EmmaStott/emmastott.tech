@@ -1,0 +1,10 @@
+<div class="social-icons">
+	<ul>
+		{{- range $index, $key := .Site.Params.Social -}}
+		<li><a href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></li>
+		{{- end -}}
+	</ul>
+</div>
+<div class="copyright">
+	{{ with .Site.Copyright }} {{ . }} {{ end }}
+</div>

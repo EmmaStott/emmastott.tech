@@ -1,0 +1,11 @@
+{{ define "main" }}
+	<h1>{{ .Title }}</h1>
+	{{ .Content }}
+	<ul>
+		{{ range .Pages }}
+			{{ $dateHuman := .Date | time.Format ":date_full" }}
+			<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> <span class="meta">Posted on {{ $dateHuman }}</span></li>
+		{{ end }}
+	</ul>
+{{ end }}
+
