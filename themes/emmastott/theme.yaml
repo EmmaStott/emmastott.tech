@@ -1,0 +1,13 @@
+name: Emma Stott
+description: The theme for my personal site.
+demosite: "https://emmastott.tech"
+homepage: "https://github.com/EmmaStott/emmastott.tech"
+license: MIT
+licenselink: "https://github.com/EmmaStott/emmastott.tech/themes/emmastott/LICENSE"
+features: []
+tags:
+  - blog
+  - personal
+author:
+  name: Emma Stott
+  homepage: "https://emmastott.tech"
