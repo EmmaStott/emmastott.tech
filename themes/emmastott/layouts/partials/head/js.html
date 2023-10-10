@@ -10,8 +10,4 @@
 		{{- end }}
 	{{- end }}
 {{- end }}
-{{- with resources.Get "js/feather.min.js" }}
-	{{- with . | fingerprint }}
-		<script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
-	{{- end }}
-{{- end }}
+<script src="https://kit.fontawesome.com/be4867d572.js" crossorigin="anonymous"></script>

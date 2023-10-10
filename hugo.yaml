@@ -47,9 +47,12 @@ params:
       url: "https://github.com/EmmaStott"
     - name: GitLab
       icon: gitlab
-      url: 'https://gitlab.com/emmastott'
+      url: "https://gitlab.com/emmastott"
+    - name: Mastodon
+      icon: mastodon
+      url: "https://hachyderm.io/@emmastott"
     - name: Twitter
-      icon: twitter
-      url: 'https://twitter.com/EmmaStott_'
+      icon: x-twitter
+      url: "https://twitter.com/EmmaStott_"
 
 
