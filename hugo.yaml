@@ -48,6 +48,9 @@ params:
     - name: GitLab
       icon: gitlab
       url: "https://gitlab.com/emmastott"
+    - name: Bluesky
+      icon: question
+      url: "https://bsky.app/profile/emmastott.bsky.social"
     - name: Mastodon
       icon: mastodon
       url: "https://mastodon.social/@emmastott"
